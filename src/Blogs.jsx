@@ -7,9 +7,10 @@ const Blogs = () => {
         .then(res=> res.json())
         .then(data => setBlogs(data))
     },[])
-    
+
     return (
         <div>
+            <p> blogs Length: {bolgs.length}</p>
             <h1>Hey Blogs</h1>
         </div>
     );
