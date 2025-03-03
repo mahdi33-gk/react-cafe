@@ -9,9 +9,9 @@ const Blogs = () => {
     },[])
 
     return (
-        <div>
+        <div className='md:w-2/3 mx-5'>
             <p> blogs Length: {bolgs.length}</p>
-            <h1>Hey Blogs</h1>
+            
         </div>
     );
 };
