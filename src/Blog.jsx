@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { CiBookmark } from "react-icons/ci";
 
 const Blog = ({ blog }) => {
   const { title, coverImg, readingTime, author, authorPic, hashtags } = blog;
   return (
-    <div>
+    <div className="border-b-2 pb-3 pt-4">
       
-      <img src={coverImg} alt="" />
+      <img className="w-full" src={coverImg} alt="" />
       
       <div className="flex justify-between py-5 items-center">
         <div className="flex gap-2 items-center">
@@ -17,12 +18,14 @@ const Blog = ({ blog }) => {
             <p className="text-[15px] text-gray-500">Mar 14 (4 Days ago)</p>
           </div>
         </div>
-        <div>
-          <h1>{readingTime} min read</h1>
+        <div className="flex gap-1">
+          <h1 className="text-gray-600">{readingTime} min read</h1>
+          <button className="text-2xl "><CiBookmark></CiBookmark></button>
         </div>
       </div>
       <h2 className="text-4xl font-bold pb-2">{title}</h2>
-      <p className="text-[16px] text-gray-500">{hashtags}</p>
+      <p className="text-[16px] py-2 text-gray-500">{hashtags}</p>
+      <button className="underline py-2 text-xl font-semibold text-blue-500">Mark as read</button>
       
     </div>
   );
