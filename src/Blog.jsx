@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Blog = ({blog}) => {
+    const{title} = blog;
     return (
         <div>
-            
+            <h2>{title}</h2>
         </div>
     );
 };
