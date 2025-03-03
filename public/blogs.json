@@ -1,94 +1,101 @@
 [
   {
     "id": 1,
-    "coverImg": "https://example.com/images/post1.jpg",
+    "coverImg": "https://picsum.photos/seed/1/600/400.jpg",
     "title": "Mastering JavaScript Arrays",
     "readingTime": 5,
     "author": "Mahdi Khan",
-    "authorPic": "https://example.com/images/mahdi.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/men/1.jpg",
     "hashtags": ["#JavaScript", "#Coding", "#WebDevelopment"]
   },
   {
     "id": 2,
-    "coverImg": "https://example.com/images/post2.jpg",
+    "coverImg": "https://picsum.photos/seed/2/600/400.jpg",
     "title": "The Future of Tailwind CSS",
     "readingTime": 7,
     "author": "John Doe",
-    "authorPic": "https://example.com/images/john.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/men/2.jpg",
     "hashtags": ["#TailwindCSS", "#Frontend", "#UIUX"]
   },
   {
     "id": 3,
-    "coverImg": "https://example.com/images/post3.jpg",
+    "coverImg": "https://picsum.photos/seed/3/600/400.jpg",
     "title": "How to Earn Passive Income as a Developer",
     "readingTime": 6,
     "author": "Emily Smith",
-    "authorPic": "https://example.com/images/emily.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/women/1.jpg",
     "hashtags": ["#PassiveIncome", "#Freelancing", "#RemoteWork"]
   },
   {
     "id": 4,
-    "coverImg": "https://example.com/images/post4.jpg",
+    "coverImg": "https://picsum.photos/seed/4/600/400.jpg",
     "title": "React vs Vue: Which One Should You Choose?",
     "readingTime": 8,
     "author": "David Johnson",
-    "authorPic": "https://example.com/images/david.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/men/3.jpg",
     "hashtags": ["#ReactJS", "#VueJS", "#Frontend"]
   },
   {
     "id": 5,
-    "coverImg": "https://example.com/images/post5.jpg",
+    "coverImg": "https://picsum.photos/seed/5/600/400.jpg",
     "title": "The Rise of AI in Web Development",
     "readingTime": 9,
     "author": "Sophia Brown",
-    "authorPic": "https://example.com/images/sophia.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/women/2.jpg",
     "hashtags": ["#AI", "#MachineLearning", "#WebDev"]
   },
   {
     "id": 6,
-    "coverImg": "https://example.com/images/post6.jpg",
+    "coverImg": "https://picsum.photos/seed/6/600/400.jpg",
     "title": "Top 10 JavaScript Frameworks in 2025",
     "readingTime": 5,
     "author": "Robert Wilson",
-    "authorPic": "https://example.com/images/robert.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/men/4.jpg",
     "hashtags": ["#JavaScript", "#Frameworks", "#TechTrends"]
   },
   {
     "id": 7,
-    "coverImg": "https://example.com/images/post7.jpg",
+    "coverImg": "https://picsum.photos/seed/7/600/400.jpg",
     "title": "How to Build a Full-Stack App with Next.js",
     "readingTime": 7,
     "author": "Michael Lee",
-    "authorPic": "https://example.com/images/michael.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/men/5.jpg",
     "hashtags": ["#NextJS", "#FullStack", "#WebDevelopment"]
   },
   {
     "id": 8,
-    "coverImg": "https://example.com/images/post8.jpg",
+    "coverImg": "https://picsum.photos/seed/8/600/400.jpg",
     "title": "Why Soft Skills Matter for Developers",
     "readingTime": 4,
     "author": "Emma Taylor",
-    "authorPic": "https://example.com/images/emma.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/women/3.jpg",
     "hashtags": ["#SoftSkills", "#Career", "#Programming"]
   },
   {
     "id": 9,
-    "coverImg": "https://example.com/images/post9.jpg",
+    "coverImg": "https://picsum.photos/seed/9/600/400.jpg",
     "title": "Understanding Web3 and Blockchain Development",
     "readingTime": 10,
     "author": "Chris Martin",
-    "authorPic": "https://example.com/images/chris.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/men/6.jpg",
     "hashtags": ["#Web3", "#Blockchain", "#Crypto"]
   },
   {
     "id": 10,
-    "coverImg": "https://example.com/images/post10.jpg",
+    "coverImg": "https://picsum.photos/seed/10/600/400.jpg",
     "title": "Best Practices for Writing Clean Code",
     "readingTime": 6,
     "author": "Jessica White",
-    "authorPic": "https://example.com/images/jessica.jpg",
+    "authorPic": "https://randomuser.me/api/portraits/women/4.jpg",
     "hashtags": ["#CleanCode", "#BestPractices", "#SoftwareEngineering"]
+  },
+  {
+    "id": 11,
+    "coverImg": "https://picsum.photos/seed/11/600/400.jpg",
+    "title": "Mastering Full-Stack Development",
+    "readingTime": 8,
+    "author": "Liam Neeson",
+    "authorPic": "https://randomuser.me/api/portraits/men/7.jpg",
+    "hashtags": ["#FullStack", "#WebDevelopment", "#Programming"]
   }
 ]
-
-  
