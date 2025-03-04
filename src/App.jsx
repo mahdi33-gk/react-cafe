@@ -23,7 +23,7 @@ function App() {
 
       <main className="md:flex">
         <Blogs handlertiming={handlertiming} handleBookmarks={handleBookmarks}></Blogs>
-        <Documents handlertiming={handlertiming} bookmarks={bookmarks}></Documents>
+        <Documents readingTime={readingTime} handlertiming={handlertiming} bookmarks={bookmarks}></Documents>
       </main>
     </>
   );
