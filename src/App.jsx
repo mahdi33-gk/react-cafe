@@ -7,7 +7,8 @@ import { useState } from "react";
 function App() {
   const [bookmarks, setBookmarks] = useState([])
   const handleBookmarks = (blog) => {
-    console.log(blog);
+    const newBookmarks = [...bookmarks, blog]
+    setBookmarks(newBookmarks);
   }
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
 
       <main className="md:flex">
         <Blogs handleBookmarks={handleBookmarks}></Blogs>
-        <Documents></Documents>
+        <Documents bookmarks={bookmarks}></Documents>
       </main>
     </>
   );
