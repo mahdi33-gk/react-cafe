@@ -6,8 +6,8 @@ import { useState } from "react";
 
 function App() {
   const [bookmarks, setBookmarks] = useState([])
-  const handleBookmarks = () => {
-    console.log('cliked in bookmark icon');
+  const handleBookmarks = (blog) => {
+    console.log(blog);
   }
   return (
     <>

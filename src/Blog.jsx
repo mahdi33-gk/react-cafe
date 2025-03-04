@@ -20,7 +20,7 @@ const Blog = ({ blog, handleBookmarks }) => {
         </div>
         <div className="flex gap-1">
           <h1 className="text-gray-600">{readingTime} min read</h1>
-          <button onClick={handleBookmarks} className="text-2xl "><CiBookmark></CiBookmark></button>
+          <button onClick={()=> handleBookmarks(blog)} className="text-2xl "><CiBookmark></CiBookmark></button>
         </div>
       </div>
       <h2 className="text-4xl font-bold pb-2">{title}</h2>
