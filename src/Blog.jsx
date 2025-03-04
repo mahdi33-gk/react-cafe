@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { CiBookmark } from "react-icons/ci";
 
-const Blog = ({ blog, handleBookmarks }) => {
+const Blog = ({ blog, handleBookmarks,handlertiming }) => {
   const { title, coverImg, readingTime, author, authorPic, hashtags } = blog;
   return (
     <div className="border-b-2 pb-3 pt-4">
@@ -25,7 +25,7 @@ const Blog = ({ blog, handleBookmarks }) => {
       </div>
       <h2 className="text-4xl font-bold pb-2">{title}</h2>
       <p className="text-[16px] py-2 text-gray-500">{hashtags}</p>
-      <button className="underline py-2 text-xl font-semibold text-blue-500">Mark as read</button>
+      <button onClick={()=>handlertiming(readingTime)} className="underline py-2 text-xl font-semibold text-blue-500">Mark as read</button>
       
     </div>
   );
