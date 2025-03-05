@@ -11,7 +11,7 @@ const Documents = ({bookmarks, handlertiming, readingTime}) => {
             
             <h1 className='text-2xl  font-semibold'>Bookmarks length: {bookmarks.length}</h1>
             {
-                bookmarks.map(bookmark => <Document  handlertiming={handlertiming} bookmark={bookmark}></Document>)
+                bookmarks.map((bookmark, idx) => <Document key={idx} handlertiming={handlertiming} bookmark={bookmark}></Document>)
             }
         </div>
     );
