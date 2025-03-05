@@ -15,7 +15,7 @@ function App() {
   const handlertiming = (time) =>{
     const newTime = readingTime + time;
     setReadingTime(newTime)
-    console.log(newTime)
+    
   }
   return (
     <>

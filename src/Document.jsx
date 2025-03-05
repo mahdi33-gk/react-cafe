@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Document = ({bookmark, }) => {
+const Document = ({bookmark }) => {
     const {title} = bookmark;
     return (
         <div>
